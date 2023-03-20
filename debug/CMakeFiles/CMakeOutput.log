@@ -1,0 +1,1549 @@
+The system is: Linux - 6.2.2-arch1-1 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/3.25.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/3.25.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-UsmIqI
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_56204/fast && /usr/bin/make  -f CMakeFiles/cmTC_56204.dir/build.make CMakeFiles/cmTC_56204.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-UsmIqI'
+Building C object CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20230201 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56204.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_56204.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cc8kyLgb.s
+GNU C17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20230201, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20230201, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 99df1fbb4c4d7eeb8d93f0979bfab9ce
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56204.dir/'
+ as -v --64 -o CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o /tmp/cc8kyLgb.s
+GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_56204
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56204.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o -o cmTC_56204 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20230201 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_56204' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_56204.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSwTrlT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_56204 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../.. CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_56204' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_56204.'
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-UsmIqI'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-UsmIqI]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_56204/fast && /usr/bin/make  -f CMakeFiles/cmTC_56204.dir/build.make CMakeFiles/cmTC_56204.dir/build]
+  ignore line: [make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-UsmIqI']
+  ignore line: [Building C object CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20230201 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56204.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_56204.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cc8kyLgb.s]
+  ignore line: [GNU C17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20230201  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20230201  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 99df1fbb4c4d7eeb8d93f0979bfab9ce]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56204.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o /tmp/cc8kyLgb.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_56204]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56204.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o -o cmTC_56204 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20230201 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_56204' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_56204.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSwTrlT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_56204 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../.. CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccSwTrlT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_56204] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..]
+    arg [CMakeFiles/cmTC_56204.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-OerU0B
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_79627/fast && /usr/bin/make  -f CMakeFiles/cmTC_79627.dir/build.make CMakeFiles/cmTC_79627.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-OerU0B'
+Building CXX object CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20230201 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79627.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_79627.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cco74nDv.s
+GNU C++17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20230201, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20230201, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ab2adc4aa87e9c5b6e6cb24c55e663d5
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79627.dir/'
+ as -v --64 -o CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o /tmp/cco74nDv.s
+GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_79627
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79627.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_79627 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20230201 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_79627' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_79627.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCqC4S2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_79627 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../.. CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_79627' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_79627.'
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-OerU0B'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1] ==> [/usr/include/c++/12.2.1]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/12.2.1/x86_64-pc-linux-gnu]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward] ==> [/usr/include/c++/12.2.1/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12.2.1;/usr/include/c++/12.2.1/x86_64-pc-linux-gnu;/usr/include/c++/12.2.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-OerU0B]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_79627/fast && /usr/bin/make  -f CMakeFiles/cmTC_79627.dir/build.make CMakeFiles/cmTC_79627.dir/build]
+  ignore line: [make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-OerU0B']
+  ignore line: [Building CXX object CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20230201 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79627.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_79627.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cco74nDv.s]
+  ignore line: [GNU C++17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20230201  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.2.1 20230201 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20230201  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ab2adc4aa87e9c5b6e6cb24c55e663d5]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79627.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o /tmp/cco74nDv.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_79627]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79627.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_79627 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20230201 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_79627' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_79627.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCqC4S2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_79627 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../.. CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCqC4S2.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_79627] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..]
+    arg [CMakeFiles/cmTC_79627.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-oggn3R
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2cc02/fast && /usr/bin/make  -f CMakeFiles/cmTC_2cc02.dir/build.make CMakeFiles/cmTC_2cc02.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-oggn3R'
+Building C object CMakeFiles/cmTC_2cc02.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2cc02.dir/src.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-oggn3R/src.c
+Linking C executable cmTC_2cc02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cc02.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_2cc02.dir/src.c.o -o cmTC_2cc02 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-oggn3R'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if files alloca.h exist passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TKLDKx
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_885c2/fast && /usr/bin/make  -f CMakeFiles/cmTC_885c2.dir/build.make CMakeFiles/cmTC_885c2.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TKLDKx'
+Building C object CMakeFiles/cmTC_885c2.dir/HAVE_ALLOCA_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_885c2.dir/HAVE_ALLOCA_H.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TKLDKx/HAVE_ALLOCA_H.c
+Linking C executable cmTC_885c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_885c2.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_885c2.dir/HAVE_ALLOCA_H.c.o -o cmTC_885c2 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TKLDKx'
+
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-qMi9Gn
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6b55/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6b55.dir/build.make CMakeFiles/cmTC_c6b55.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-qMi9Gn'
+Building C object CMakeFiles/cmTC_c6b55.dir/HAVE_MEMORY_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c6b55.dir/HAVE_MEMORY_H.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-qMi9Gn/HAVE_MEMORY_H.c
+Linking C executable cmTC_c6b55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6b55.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c6b55.dir/HAVE_MEMORY_H.c.o -o cmTC_c6b55 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-qMi9Gn'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_HEX_FP_CONSTANTS succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rnLQ7k
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_94989/fast && /usr/bin/make  -f CMakeFiles/cmTC_94989.dir/build.make CMakeFiles/cmTC_94989.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rnLQ7k'
+Building CXX object CMakeFiles/cmTC_94989.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_HEX_FP_CONSTANTS  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_94989.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rnLQ7k/src.cxx
+Linking CXX executable cmTC_94989
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94989.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_94989.dir/src.cxx.o -o cmTC_94989 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rnLQ7k'
+
+
+Source file was:
+int main() { float x = 0x1p-32f; }
+
+Performing C++ SOURCE FILE Test HAVE_BINARY_CONSTANTS succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-koiLfQ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0a7e8/fast && /usr/bin/make  -f CMakeFiles/cmTC_0a7e8.dir/build.make CMakeFiles/cmTC_0a7e8.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-koiLfQ'
+Building CXX object CMakeFiles/cmTC_0a7e8.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_BINARY_CONSTANTS  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_0a7e8.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-koiLfQ/src.cxx
+Linking CXX executable cmTC_0a7e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a7e8.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_0a7e8.dir/src.cxx.o -o cmTC_0a7e8 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-koiLfQ'
+
+
+Source file was:
+int main() { int x = 0b101011; }
+
+Performing C++ SOURCE FILE Test HAVE_CONSTEXPR succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-tdPDrG
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8239e/fast && /usr/bin/make  -f CMakeFiles/cmTC_8239e.dir/build.make CMakeFiles/cmTC_8239e.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-tdPDrG'
+Building CXX object CMakeFiles/cmTC_8239e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CONSTEXPR  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_8239e.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-tdPDrG/src.cxx
+Linking CXX executable cmTC_8239e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8239e.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_8239e.dir/src.cxx.o -o cmTC_8239e 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-tdPDrG'
+
+
+Source file was:
+int main() { constexpr int x = 0; }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNAS succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rT0xyd
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_51f80/fast && /usr/bin/make  -f CMakeFiles/cmTC_51f80.dir/build.make CMakeFiles/cmTC_51f80.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rT0xyd'
+Building CXX object CMakeFiles/cmTC_51f80.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ALIGNAS  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_51f80.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rT0xyd/src.cxx
+Linking CXX executable cmTC_51f80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51f80.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_51f80.dir/src.cxx.o -o cmTC_51f80 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rT0xyd'
+
+
+Source file was:
+struct alignas(32) Foo { char x; }; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNOF succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FK6fAj
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b3467/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3467.dir/build.make CMakeFiles/cmTC_b3467.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FK6fAj'
+Building CXX object CMakeFiles/cmTC_b3467.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ALIGNOF  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_b3467.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FK6fAj/src.cxx
+Linking CXX executable cmTC_b3467
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3467.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_b3467.dir/src.cxx.o -o cmTC_b3467 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FK6fAj'
+
+
+Source file was:
+int main() { int x = alignof(double); }
+
+Performing C++ SOURCE FILE Test HAVE_ITIMER succeeded with the following compile output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-UwEsWM
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cfa35/fast && /usr/bin/make  -f CMakeFiles/cmTC_cfa35.dir/build.make CMakeFiles/cmTC_cfa35.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-UwEsWM'
+Building CXX object CMakeFiles/cmTC_cfa35.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ITIMER  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_cfa35.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-UwEsWM/src.cxx
+Linking CXX executable cmTC_cfa35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfa35.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_cfa35.dir/src.cxx.o -o cmTC_cfa35 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-UwEsWM'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <signal.h>
+#include <string.h>
+#include <sys/time.h>
+void ReportProfileSample(int, siginfo_t *, void *) { }
+int main() {
+    struct sigaction sa;
+    memset(&sa, 0, sizeof(sa));
+    sa.sa_sigaction = ReportProfileSample;
+    sa.sa_flags = SA_RESTART | SA_SIGINFO;
+    sigemptyset(&sa.sa_mask);
+    sigaction(SIGPROF, &sa, NULL);
+    static struct itimerval timer;
+    return setitimer(ITIMER_PROF, &timer, NULL) == 0 ? 0 : 1;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_NONPOD_IN_UNIONS succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TkU20A
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2ce9a/fast && /usr/bin/make  -f CMakeFiles/cmTC_2ce9a.dir/build.make CMakeFiles/cmTC_2ce9a.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TkU20A'
+Building CXX object CMakeFiles/cmTC_2ce9a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NONPOD_IN_UNIONS  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_2ce9a.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TkU20A/src.cxx
+Linking CXX executable cmTC_2ce9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ce9a.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_2ce9a.dir/src.cxx.o -o cmTC_2ce9a 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TkU20A'
+
+
+Source file was:
+
+class Bar { public: Bar() { x = 0; } float x; };
+struct Foo { union { int x[10]; Bar b; }; Foo() : b() { } };
+int main() { Foo f; }
+
+
+Performing C++ SOURCE FILE Test HAVE_MMAP succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-c55YqK
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_30956/fast && /usr/bin/make  -f CMakeFiles/cmTC_30956.dir/build.make CMakeFiles/cmTC_30956.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-c55YqK'
+Building CXX object CMakeFiles/cmTC_30956.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_MMAP  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_30956.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-c55YqK/src.cxx
+Linking CXX executable cmTC_30956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30956.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_30956.dir/src.cxx.o -o cmTC_30956 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-c55YqK'
+
+
+Source file was:
+
+#include <fcntl.h>
+#include <sys/mman.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+int main() {
+   int fd = open("foo", O_RDONLY);
+   struct stat s;
+   fstat(fd, &s);
+   size_t len = s.st_size;
+   void *ptr = mmap(0, len, PROT_READ, MAP_FILE | MAP_SHARED, fd, 0);
+   munmap(ptr, len);   
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_ATTRIBUTE_NOINLINE succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-WetxoN
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_98b37/fast && /usr/bin/make  -f CMakeFiles/cmTC_98b37.dir/build.make CMakeFiles/cmTC_98b37.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-WetxoN'
+Building CXX object CMakeFiles/cmTC_98b37.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ATTRIBUTE_NOINLINE  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_98b37.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-WetxoN/src.cxx
+Linking CXX executable cmTC_98b37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98b37.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_98b37.dir/src.cxx.o -o cmTC_98b37 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-WetxoN'
+
+
+Source file was:
+__attribute__((noinline)) void foo() { }
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_POSIX_MEMALIGN succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-4gnaqY
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c2092/fast && /usr/bin/make  -f CMakeFiles/cmTC_c2092.dir/build.make CMakeFiles/cmTC_c2092.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-4gnaqY'
+Building CXX object CMakeFiles/cmTC_c2092.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_POSIX_MEMALIGN  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_c2092.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-4gnaqY/src.cxx
+Linking CXX executable cmTC_c2092
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2092.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_c2092.dir/src.cxx.o -o cmTC_c2092 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-4gnaqY'
+
+
+Source file was:
+
+#include <stdlib.h>
+int main() {
+  void *ptr;
+  posix_memalign(&ptr, 32, 1024);
+} 
+
+Performing C++ SOURCE FILE Test HAVE_MEMALIGN succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-a9lBRO
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9a247/fast && /usr/bin/make  -f CMakeFiles/cmTC_9a247.dir/build.make CMakeFiles/cmTC_9a247.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-a9lBRO'
+Building CXX object CMakeFiles/cmTC_9a247.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_MEMALIGN  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_9a247.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-a9lBRO/src.cxx
+Linking CXX executable cmTC_9a247
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a247.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_9a247.dir/src.cxx.o -o cmTC_9a247 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-a9lBRO'
+
+
+Source file was:
+
+#include <malloc.h>
+int main() {
+    void *ptr = memalign(32, 1024);
+} 
+
+Performing C++ SOURCE FILE Test HAVE_THREAD_LOCAL succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-A7Tcm8
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c5640/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5640.dir/build.make CMakeFiles/cmTC_c5640.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-A7Tcm8'
+Building CXX object CMakeFiles/cmTC_c5640.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_THREAD_LOCAL  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_c5640.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-A7Tcm8/src.cxx
+Linking CXX executable cmTC_c5640
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5640.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_c5640.dir/src.cxx.o -o cmTC_c5640 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-A7Tcm8'
+
+
+Source file was:
+
+#ifdef __CYGWIN__
+// Hack to work around https://gcc.gnu.org/bugzilla/show_bug.cgi?id=64697
+#error "No thread_local on cygwin"
+#endif  // __CYGWIN__
+thread_local int x; int main() { }
+
+
+Performing C++ SOURCE FILE Test HAVE___THREAD succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-nELPY2
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ba121/fast && /usr/bin/make  -f CMakeFiles/cmTC_ba121.dir/build.make CMakeFiles/cmTC_ba121.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-nELPY2'
+Building CXX object CMakeFiles/cmTC_ba121.dir/src.cxx.o
+/usr/bin/c++ -DHAVE___THREAD  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_ba121.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-nELPY2/src.cxx
+Linking CXX executable cmTC_ba121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba121.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_ba121.dir/src.cxx.o -o cmTC_ba121 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-nELPY2'
+
+
+Source file was:
+
+__thread int x; int main() { }
+
+
+Performing C++ SOURCE FILE Test HAVE_GCC_INLINE_ASM_AVX succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Vo6LSc
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0f9b2/fast && /usr/bin/make  -f CMakeFiles/cmTC_0f9b2.dir/build.make CMakeFiles/cmTC_0f9b2.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Vo6LSc'
+Building CXX object CMakeFiles/cmTC_0f9b2.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_GCC_INLINE_ASM_AVX  -std=gnu++11 -Wno-conversion-null -Wno-unused-result -Wno-deprecated  -o CMakeFiles/cmTC_0f9b2.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Vo6LSc/src.cxx
+Linking CXX executable cmTC_0f9b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f9b2.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null -Wno-unused-result -Wno-deprecated  -rdynamic CMakeFiles/cmTC_0f9b2.dir/src.cxx.o -o cmTC_0f9b2 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Vo6LSc'
+
+
+Source file was:
+
+	int main()
+	{
+	 #if defined(__GNUC__) && defined(__SSE2__)
+		 int n   = 0;
+		 int eax = 0;
+		 int edx = 0;
+		 __asm__(
+			 "xgetbv     ;"
+			 "vzeroupper  "
+			 : "=a"(eax), "=d"(edx) : "c"(n) : );
+	 #else
+		 #error No GCC style inline asm supported for AVX instructions
+	 #endif
+	}
+	
+
+Performing C++ SOURCE FILE Test HAVE_SYSCONF_NPROCESSORS_ONLN succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-p6sRVb
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_066dd/fast && /usr/bin/make  -f CMakeFiles/cmTC_066dd.dir/build.make CMakeFiles/cmTC_066dd.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-p6sRVb'
+Building CXX object CMakeFiles/cmTC_066dd.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_SYSCONF_NPROCESSORS_ONLN  -std=gnu++11 -Wno-conversion-null -Wno-unused-result -Wno-deprecated  -o CMakeFiles/cmTC_066dd.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-p6sRVb/src.cxx
+Linking CXX executable cmTC_066dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_066dd.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null -Wno-unused-result -Wno-deprecated  -rdynamic CMakeFiles/cmTC_066dd.dir/src.cxx.o -o cmTC_066dd 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-p6sRVb'
+
+
+Source file was:
+
+    #include <unistd.h>
+    int main()
+    {
+        sysconf(_SC_NPROCESSORS_ONLN);
+    }
+    
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-l4Wphx
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f35eb/fast && /usr/bin/make  -f CMakeFiles/cmTC_f35eb.dir/build.make CMakeFiles/cmTC_f35eb.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-l4Wphx'
+Building C object CMakeFiles/cmTC_f35eb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f35eb.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-l4Wphx/CheckIncludeFile.c
+Linking C executable cmTC_f35eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f35eb.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f35eb.dir/CheckIncludeFile.c.o -o cmTC_f35eb 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-l4Wphx'
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-oFPzPr
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_472ca/fast && /usr/bin/make  -f CMakeFiles/cmTC_472ca.dir/build.make CMakeFiles/cmTC_472ca.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-oFPzPr'
+Building C object CMakeFiles/cmTC_472ca.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_472ca.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-oFPzPr/CheckIncludeFile.c
+Linking C executable cmTC_472ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_472ca.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_472ca.dir/CheckIncludeFile.c.o -o cmTC_472ca 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-oFPzPr'
+
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FVfXNS
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_86e4b/fast && /usr/bin/make  -f CMakeFiles/cmTC_86e4b.dir/build.make CMakeFiles/cmTC_86e4b.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FVfXNS'
+Building C object CMakeFiles/cmTC_86e4b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_86e4b.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FVfXNS/CheckIncludeFile.c
+Linking C executable cmTC_86e4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86e4b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_86e4b.dir/CheckIncludeFile.c.o -o cmTC_86e4b 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FVfXNS'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2rZKWe
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a4916/fast && /usr/bin/make  -f CMakeFiles/cmTC_a4916.dir/build.make CMakeFiles/cmTC_a4916.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2rZKWe'
+Building C object CMakeFiles/cmTC_a4916.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a4916.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2rZKWe/CheckIncludeFile.c
+Linking C executable cmTC_a4916
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4916.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a4916.dir/CheckIncludeFile.c.o -o cmTC_a4916 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2rZKWe'
+
+
+
+Determining if the include file libunwind.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FRwsjU
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c3d00/fast && /usr/bin/make  -f CMakeFiles/cmTC_c3d00.dir/build.make CMakeFiles/cmTC_c3d00.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FRwsjU'
+Building C object CMakeFiles/cmTC_c3d00.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c3d00.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FRwsjU/CheckIncludeFile.c
+Linking C executable cmTC_c3d00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3d00.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c3d00.dir/CheckIncludeFile.c.o -o cmTC_c3d00 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-FRwsjU'
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-PVh8XJ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_314eb/fast && /usr/bin/make  -f CMakeFiles/cmTC_314eb.dir/build.make CMakeFiles/cmTC_314eb.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-PVh8XJ'
+Building C object CMakeFiles/cmTC_314eb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_314eb.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-PVh8XJ/CheckIncludeFile.c
+Linking C executable cmTC_314eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_314eb.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_314eb.dir/CheckIncludeFile.c.o -o cmTC_314eb 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-PVh8XJ'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-RPjKGv
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_feebc/fast && /usr/bin/make  -f CMakeFiles/cmTC_feebc.dir/build.make CMakeFiles/cmTC_feebc.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-RPjKGv'
+Building C object CMakeFiles/cmTC_feebc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_feebc.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-RPjKGv/CheckIncludeFile.c
+Linking C executable cmTC_feebc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feebc.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_feebc.dir/CheckIncludeFile.c.o -o cmTC_feebc 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-RPjKGv'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2cCzic
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_599bc/fast && /usr/bin/make  -f CMakeFiles/cmTC_599bc.dir/build.make CMakeFiles/cmTC_599bc.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2cCzic'
+Building C object CMakeFiles/cmTC_599bc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_599bc.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2cCzic/CheckIncludeFile.c
+Linking C executable cmTC_599bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_599bc.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_599bc.dir/CheckIncludeFile.c.o -o cmTC_599bc 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2cCzic'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-mgdLUJ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eec22/fast && /usr/bin/make  -f CMakeFiles/cmTC_eec22.dir/build.make CMakeFiles/cmTC_eec22.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-mgdLUJ'
+Building C object CMakeFiles/cmTC_eec22.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eec22.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-mgdLUJ/CheckIncludeFile.c
+Linking C executable cmTC_eec22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eec22.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_eec22.dir/CheckIncludeFile.c.o -o cmTC_eec22 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-mgdLUJ'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-HxLtWt
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f2649/fast && /usr/bin/make  -f CMakeFiles/cmTC_f2649.dir/build.make CMakeFiles/cmTC_f2649.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-HxLtWt'
+Building C object CMakeFiles/cmTC_f2649.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f2649.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-HxLtWt/CheckIncludeFile.c
+Linking C executable cmTC_f2649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2649.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f2649.dir/CheckIncludeFile.c.o -o cmTC_f2649 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-HxLtWt'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-D5N7Yi
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b2300/fast && /usr/bin/make  -f CMakeFiles/cmTC_b2300.dir/build.make CMakeFiles/cmTC_b2300.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-D5N7Yi'
+Building C object CMakeFiles/cmTC_b2300.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b2300.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-D5N7Yi/CheckIncludeFile.c
+Linking C executable cmTC_b2300
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2300.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b2300.dir/CheckIncludeFile.c.o -o cmTC_b2300 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-D5N7Yi'
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-AAJfQo
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1f8ba/fast && /usr/bin/make  -f CMakeFiles/cmTC_1f8ba.dir/build.make CMakeFiles/cmTC_1f8ba.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-AAJfQo'
+Building C object CMakeFiles/cmTC_1f8ba.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1f8ba.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-AAJfQo/CheckIncludeFile.c
+Linking C executable cmTC_1f8ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f8ba.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_1f8ba.dir/CheckIncludeFile.c.o -o cmTC_1f8ba 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-AAJfQo'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2bmUms
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_23887/fast && /usr/bin/make  -f CMakeFiles/cmTC_23887.dir/build.make CMakeFiles/cmTC_23887.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2bmUms'
+Building C object CMakeFiles/cmTC_23887.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_23887.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2bmUms/CheckIncludeFile.c
+Linking C executable cmTC_23887
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23887.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_23887.dir/CheckIncludeFile.c.o -o cmTC_23887 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-2bmUms'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-hJIZBa
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d77ff/fast && /usr/bin/make  -f CMakeFiles/cmTC_d77ff.dir/build.make CMakeFiles/cmTC_d77ff.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-hJIZBa'
+Building C object CMakeFiles/cmTC_d77ff.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d77ff.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-hJIZBa/CheckIncludeFile.c
+Linking C executable cmTC_d77ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d77ff.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d77ff.dir/CheckIncludeFile.c.o -o cmTC_d77ff 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-hJIZBa'
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-T0P3M6
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee5b5/fast && /usr/bin/make  -f CMakeFiles/cmTC_ee5b5.dir/build.make CMakeFiles/cmTC_ee5b5.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-T0P3M6'
+Building C object CMakeFiles/cmTC_ee5b5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ee5b5.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-T0P3M6/CheckIncludeFile.c
+Linking C executable cmTC_ee5b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee5b5.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_ee5b5.dir/CheckIncludeFile.c.o -o cmTC_ee5b5 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-T0P3M6'
+
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-nHJQil
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9c017/fast && /usr/bin/make  -f CMakeFiles/cmTC_9c017.dir/build.make CMakeFiles/cmTC_9c017.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-nHJQil'
+Building C object CMakeFiles/cmTC_9c017.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9c017.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-nHJQil/CheckIncludeFile.c
+Linking C executable cmTC_9c017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c017.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_9c017.dir/CheckIncludeFile.c.o -o cmTC_9c017 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-nHJQil'
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-43CpuS
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3f4ab/fast && /usr/bin/make  -f CMakeFiles/cmTC_3f4ab.dir/build.make CMakeFiles/cmTC_3f4ab.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-43CpuS'
+Building C object CMakeFiles/cmTC_3f4ab.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3f4ab.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-43CpuS/CheckIncludeFile.c
+Linking C executable cmTC_3f4ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f4ab.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_3f4ab.dir/CheckIncludeFile.c.o -o cmTC_3f4ab 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-43CpuS'
+
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-cgjDtC
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11ba8/fast && /usr/bin/make  -f CMakeFiles/cmTC_11ba8.dir/build.make CMakeFiles/cmTC_11ba8.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-cgjDtC'
+Building C object CMakeFiles/cmTC_11ba8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_11ba8.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-cgjDtC/CheckIncludeFile.c
+Linking C executable cmTC_11ba8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11ba8.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_11ba8.dir/CheckIncludeFile.c.o -o cmTC_11ba8 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-cgjDtC'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-3gJo6v
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_17316/fast && /usr/bin/make  -f CMakeFiles/cmTC_17316.dir/build.make CMakeFiles/cmTC_17316.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-3gJo6v'
+Building C object CMakeFiles/cmTC_17316.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_17316.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-3gJo6v/CheckIncludeFile.c
+Linking C executable cmTC_17316
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17316.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_17316.dir/CheckIncludeFile.c.o -o cmTC_17316 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-3gJo6v'
+
+
+
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Z3ghmu
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9a0ca/fast && /usr/bin/make  -f CMakeFiles/cmTC_9a0ca.dir/build.make CMakeFiles/cmTC_9a0ca.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Z3ghmu'
+Building C object CMakeFiles/cmTC_9a0ca.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9a0ca.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Z3ghmu/CheckIncludeFile.c
+Linking C executable cmTC_9a0ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a0ca.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_9a0ca.dir/CheckIncludeFile.c.o -o cmTC_9a0ca 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Z3ghmu'
+
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Ml8imy
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d0464/fast && /usr/bin/make  -f CMakeFiles/cmTC_d0464.dir/build.make CMakeFiles/cmTC_d0464.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Ml8imy'
+Building CXX object CMakeFiles/cmTC_d0464.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_d0464.dir/CheckIncludeFile.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Ml8imy/CheckIncludeFile.cxx
+In file included from /usr/include/c++/12.2.1/ext/hash_map:60,
+                 from /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Ml8imy/CheckIncludeFile.cxx:1:
+/usr/include/c++/12.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_d0464
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0464.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_d0464.dir/CheckIncludeFile.cxx.o -o cmTC_d0464 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Ml8imy'
+
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-YT1sqs
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fe13f/fast && /usr/bin/make  -f CMakeFiles/cmTC_fe13f.dir/build.make CMakeFiles/cmTC_fe13f.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-YT1sqs'
+Building CXX object CMakeFiles/cmTC_fe13f.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_fe13f.dir/CheckIncludeFile.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-YT1sqs/CheckIncludeFile.cxx
+In file included from /usr/include/c++/12.2.1/ext/hash_set:60,
+                 from /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-YT1sqs/CheckIncludeFile.cxx:1:
+/usr/include/c++/12.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_fe13f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe13f.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_fe13f.dir/CheckIncludeFile.cxx.o -o cmTC_fe13f 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-YT1sqs'
+
+
+
+Determining if the include file ext/slist exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-YeAK6z
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_00f32/fast && /usr/bin/make  -f CMakeFiles/cmTC_00f32.dir/build.make CMakeFiles/cmTC_00f32.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-YeAK6z'
+Building CXX object CMakeFiles/cmTC_00f32.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_00f32.dir/CheckIncludeFile.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-YeAK6z/CheckIncludeFile.cxx
+Linking CXX executable cmTC_00f32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00f32.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_00f32.dir/CheckIncludeFile.cxx.o -o cmTC_00f32 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-YeAK6z'
+
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Raigcx
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b7fc3/fast && /usr/bin/make  -f CMakeFiles/cmTC_b7fc3.dir/build.make CMakeFiles/cmTC_b7fc3.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Raigcx'
+Building CXX object CMakeFiles/cmTC_b7fc3.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_b7fc3.dir/CheckIncludeFile.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Raigcx/CheckIncludeFile.cxx
+Linking CXX executable cmTC_b7fc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7fc3.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_b7fc3.dir/CheckIncludeFile.cxx.o -o cmTC_b7fc3 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Raigcx'
+
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-fiyvOi
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f22d6/fast && /usr/bin/make  -f CMakeFiles/cmTC_f22d6.dir/build.make CMakeFiles/cmTC_f22d6.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-fiyvOi'
+Building CXX object CMakeFiles/cmTC_f22d6.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_f22d6.dir/CheckIncludeFile.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-fiyvOi/CheckIncludeFile.cxx
+Linking CXX executable cmTC_f22d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f22d6.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_f22d6.dir/CheckIncludeFile.cxx.o -o cmTC_f22d6 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-fiyvOi'
+
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-VZlm9O
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6ad4/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6ad4.dir/build.make CMakeFiles/cmTC_c6ad4.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-VZlm9O'
+Building CXX object CMakeFiles/cmTC_c6ad4.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_c6ad4.dir/CheckIncludeFile.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-VZlm9O/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c6ad4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6ad4.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_c6ad4.dir/CheckIncludeFile.cxx.o -o cmTC_c6ad4 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-VZlm9O'
+
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-mK5fCR
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4a957/fast && /usr/bin/make  -f CMakeFiles/cmTC_4a957.dir/build.make CMakeFiles/cmTC_4a957.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-mK5fCR'
+Building CXX object CMakeFiles/cmTC_4a957.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_4a957.dir/CheckIncludeFile.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-mK5fCR/CheckIncludeFile.cxx
+Linking CXX executable cmTC_4a957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a957.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_4a957.dir/CheckIncludeFile.cxx.o -o cmTC_4a957 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-mK5fCR'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-SEQGPl
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_75787/fast && /usr/bin/make  -f CMakeFiles/cmTC_75787.dir/build.make CMakeFiles/cmTC_75787.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-SEQGPl'
+Building C object CMakeFiles/cmTC_75787.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_75787.dir/CheckIncludeFile.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-SEQGPl/CheckIncludeFile.c
+Linking C executable cmTC_75787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75787.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_75787.dir/CheckIncludeFile.c.o -o cmTC_75787 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-SEQGPl'
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-xuTnYu
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a7f53/fast && /usr/bin/make  -f CMakeFiles/cmTC_a7f53.dir/build.make CMakeFiles/cmTC_a7f53.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-xuTnYu'
+Building C object CMakeFiles/cmTC_a7f53.dir/HAVE_U_INT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a7f53.dir/HAVE_U_INT16_T.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-xuTnYu/HAVE_U_INT16_T.c
+Linking C executable cmTC_a7f53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7f53.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a7f53.dir/HAVE_U_INT16_T.c.o -o cmTC_a7f53 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-xuTnYu'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-o34Wmt
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2431d/fast && /usr/bin/make  -f CMakeFiles/cmTC_2431d.dir/build.make CMakeFiles/cmTC_2431d.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-o34Wmt'
+Building C object CMakeFiles/cmTC_2431d.dir/HAVE_UINT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2431d.dir/HAVE_UINT16_T.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-o34Wmt/HAVE_UINT16_T.c
+Linking C executable cmTC_2431d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2431d.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_2431d.dir/HAVE_UINT16_T.c.o -o cmTC_2431d 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-o34Wmt'
+
+
+
+Determining if the function dladdr exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-ANKppy
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_09c90/fast && /usr/bin/make  -f CMakeFiles/cmTC_09c90.dir/build.make CMakeFiles/cmTC_09c90.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-ANKppy'
+Building C object CMakeFiles/cmTC_09c90.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dladdr -o CMakeFiles/cmTC_09c90.dir/CheckFunctionExists.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-ANKppy/CheckFunctionExists.c
+Linking C executable cmTC_09c90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09c90.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dladdr -rdynamic CMakeFiles/cmTC_09c90.dir/CheckFunctionExists.c.o -o cmTC_09c90 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-ANKppy'
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-1Ky2e2
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8f9ef/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f9ef.dir/build.make CMakeFiles/cmTC_8f9ef.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-1Ky2e2'
+Building C object CMakeFiles/cmTC_8f9ef.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fcntl -o CMakeFiles/cmTC_8f9ef.dir/CheckFunctionExists.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-1Ky2e2/CheckFunctionExists.c
+Linking C executable cmTC_8f9ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f9ef.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fcntl -rdynamic CMakeFiles/cmTC_8f9ef.dir/CheckFunctionExists.c.o -o cmTC_8f9ef 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-1Ky2e2'
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-i8v9xm
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d9801/fast && /usr/bin/make  -f CMakeFiles/cmTC_d9801.dir/build.make CMakeFiles/cmTC_d9801.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-i8v9xm'
+Building C object CMakeFiles/cmTC_d9801.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pread -o CMakeFiles/cmTC_d9801.dir/CheckFunctionExists.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-i8v9xm/CheckFunctionExists.c
+Linking C executable cmTC_d9801
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9801.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pread -rdynamic CMakeFiles/cmTC_d9801.dir/CheckFunctionExists.c.o -o cmTC_d9801 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-i8v9xm'
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-fqxoaS
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de545/fast && /usr/bin/make  -f CMakeFiles/cmTC_de545.dir/build.make CMakeFiles/cmTC_de545.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-fqxoaS'
+Building C object CMakeFiles/cmTC_de545.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pwrite -o CMakeFiles/cmTC_de545.dir/CheckFunctionExists.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-fqxoaS/CheckFunctionExists.c
+Linking C executable cmTC_de545
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de545.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pwrite -rdynamic CMakeFiles/cmTC_de545.dir/CheckFunctionExists.c.o -o cmTC_de545 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-fqxoaS'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-k1To6r
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f68d6/fast && /usr/bin/make  -f CMakeFiles/cmTC_f68d6.dir/build.make CMakeFiles/cmTC_f68d6.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-k1To6r'
+Building C object CMakeFiles/cmTC_f68d6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction -o CMakeFiles/cmTC_f68d6.dir/CheckFunctionExists.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-k1To6r/CheckFunctionExists.c
+Linking C executable cmTC_f68d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f68d6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction -rdynamic CMakeFiles/cmTC_f68d6.dir/CheckFunctionExists.c.o -o cmTC_f68d6 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-k1To6r'
+
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-s8dxAu
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f858f/fast && /usr/bin/make  -f CMakeFiles/cmTC_f858f.dir/build.make CMakeFiles/cmTC_f858f.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-s8dxAu'
+Building C object CMakeFiles/cmTC_f858f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaltstack -o CMakeFiles/cmTC_f858f.dir/CheckFunctionExists.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-s8dxAu/CheckFunctionExists.c
+Linking C executable cmTC_f858f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f858f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaltstack -rdynamic CMakeFiles/cmTC_f858f.dir/CheckFunctionExists.c.o -o cmTC_f858f 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-s8dxAu'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Uf6Owx
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_40b5d/fast && /usr/bin/make  -f CMakeFiles/cmTC_40b5d.dir/build.make CMakeFiles/cmTC_40b5d.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Uf6Owx'
+Building CXX object CMakeFiles/cmTC_40b5d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NO_DEPRECATED  -std=gnu++11 -Wno-conversion-null    -Wno-deprecated -o CMakeFiles/cmTC_40b5d.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Uf6Owx/src.cxx
+Linking CXX executable cmTC_40b5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40b5d.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_40b5d.dir/src.cxx.o -o cmTC_40b5d 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-Uf6Owx'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-dQRkQZ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cb0cb/fast && /usr/bin/make  -f CMakeFiles/cmTC_cb0cb.dir/build.make CMakeFiles/cmTC_cb0cb.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-dQRkQZ'
+Building CXX object CMakeFiles/cmTC_cb0cb.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS  -std=gnu++11 -Wno-conversion-null    -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_cb0cb.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-dQRkQZ/src.cxx
+Linking CXX executable cmTC_cb0cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb0cb.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_cb0cb.dir/src.cxx.o -o cmTC_cb0cb 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-dQRkQZ'
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-X3AOC6
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f17a0/fast && /usr/bin/make  -f CMakeFiles/cmTC_f17a0.dir/build.make CMakeFiles/cmTC_f17a0.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-X3AOC6'
+Building C object CMakeFiles/cmTC_f17a0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f17a0.dir/CheckSymbolExists.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-X3AOC6/CheckSymbolExists.c
+Linking C executable cmTC_f17a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f17a0.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f17a0.dir/CheckSymbolExists.c.o -o cmTC_f17a0 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-X3AOC6'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-vBVtPs
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_aac3f/fast && /usr/bin/make  -f CMakeFiles/cmTC_aac3f.dir/build.make CMakeFiles/cmTC_aac3f.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-vBVtPs'
+Building C object CMakeFiles/cmTC_aac3f.dir/src.c.o
+/usr/bin/cc -DHAVE___ATTRIBUTE__   -o CMakeFiles/cmTC_aac3f.dir/src.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-vBVtPs/src.c
+Linking C executable cmTC_aac3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aac3f.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_aac3f.dir/src.c.o -o cmTC_aac3f 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-vBVtPs'
+
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-4aQHPS
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4f749/fast && /usr/bin/make  -f CMakeFiles/cmTC_4f749.dir/build.make CMakeFiles/cmTC_4f749.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-4aQHPS'
+Building C object CMakeFiles/cmTC_4f749.dir/src.c.o
+/usr/bin/cc -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT   -o CMakeFiles/cmTC_4f749.dir/src.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-4aQHPS/src.c
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-4aQHPS/src.c:3:1: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("default")));
+      | ^~~~~~
+Linking C executable cmTC_4f749
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f749.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4f749.dir/src.c.o -o cmTC_4f749 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-4aQHPS'
+
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-q7GaSJ
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb815/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb815.dir/build.make CMakeFiles/cmTC_eb815.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-q7GaSJ'
+Building C object CMakeFiles/cmTC_eb815.dir/src.c.o
+/usr/bin/cc -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN   -o CMakeFiles/cmTC_eb815.dir/src.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-q7GaSJ/src.c
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-q7GaSJ/src.c:3:1: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("hidden")));
+      | ^~~~~~
+Linking C executable cmTC_eb815
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb815.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_eb815.dir/src.c.o -o cmTC_eb815 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-q7GaSJ'
+
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+
+Performing C SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-v5U2B8
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ec43a/fast && /usr/bin/make  -f CMakeFiles/cmTC_ec43a.dir/build.make CMakeFiles/cmTC_ec43a.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-v5U2B8'
+Building C object CMakeFiles/cmTC_ec43a.dir/src.c.o
+/usr/bin/cc -DHAVE___BUILTIN_EXPECT   -o CMakeFiles/cmTC_ec43a.dir/src.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-v5U2B8/src.c
+Linking C executable cmTC_ec43a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec43a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_ec43a.dir/src.c.o -o cmTC_ec43a 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-v5U2B8'
+
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+
+Performing C SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rK7erX
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_525ba/fast && /usr/bin/make  -f CMakeFiles/cmTC_525ba.dir/build.make CMakeFiles/cmTC_525ba.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rK7erX'
+Building C object CMakeFiles/cmTC_525ba.dir/src.c.o
+/usr/bin/cc -DHAVE___SYNC_VAL_COMPARE_AND_SWAP   -o CMakeFiles/cmTC_525ba.dir/src.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rK7erX/src.c
+Linking C executable cmTC_525ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_525ba.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_525ba.dir/src.c.o -o cmTC_525ba 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-rK7erX'
+
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+
+Performing C SOURCE FILE Test HAVE_RWLOCK succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TwcGCe
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dc962/fast && /usr/bin/make  -f CMakeFiles/cmTC_dc962.dir/build.make CMakeFiles/cmTC_dc962.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TwcGCe'
+Building C object CMakeFiles/cmTC_dc962.dir/src.c.o
+/usr/bin/cc -DHAVE_RWLOCK   -o CMakeFiles/cmTC_dc962.dir/src.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TwcGCe/src.c
+Linking C executable cmTC_dc962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc962.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_dc962.dir/src.c.o -o cmTC_dc962 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-TwcGCe'
+
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-r3OzoO
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1964b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1964b.dir/build.make CMakeFiles/cmTC_1964b.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-r3OzoO'
+Building CXX object CMakeFiles/cmTC_1964b.dir/src.cxx.o
+/usr/bin/c++ -DSTL_STD_NAMESPACE  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_1964b.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-r3OzoO/src.cxx
+Linking CXX executable cmTC_1964b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1964b.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_1964b.dir/src.cxx.o -o cmTC_1964b 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-r3OzoO'
+
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-9UR9pG
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9c9c4/fast && /usr/bin/make  -f CMakeFiles/cmTC_9c9c4.dir/build.make CMakeFiles/cmTC_9c9c4.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-9UR9pG'
+Building CXX object CMakeFiles/cmTC_9c9c4.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_USING_OPERATOR  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_9c9c4.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-9UR9pG/src.cxx
+Linking CXX executable cmTC_9c9c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c9c4.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_9c9c4.dir/src.cxx.o -o cmTC_9c9c4 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-9UR9pG'
+
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-ijLPcK
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dc7d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_dc7d2.dir/build.make CMakeFiles/cmTC_dc7d2.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-ijLPcK'
+Building CXX object CMakeFiles/cmTC_dc7d2.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_NAMESPACES  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_dc7d2.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-ijLPcK/src.cxx
+Linking CXX executable cmTC_dc7d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc7d2.dir/link.txt --verbose=1
+/usr/bin/c++  -std=gnu++11 -Wno-conversion-null  -rdynamic CMakeFiles/cmTC_dc7d2.dir/src.cxx.o -o cmTC_dc7d2 
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/debug/CMakeFiles/CMakeScratch/TryCompile-ijLPcK'
+
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
+

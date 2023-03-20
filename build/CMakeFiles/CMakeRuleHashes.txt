@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+d97ad377f5fd7971caea806c3211fb94 src/ext/openexr/IlmBase/Half/eLut.h
+87219fa8f376a3ff1c68446bacd99451 src/ext/openexr/IlmBase/Half/toFloat.h
+c3b186e9807df68f41fb1bb0e61a1b57 src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+d17174442180d4cc154c54ab9546b929 src/ext/openexr/OpenEXR/IlmImf/dwaLookups.h

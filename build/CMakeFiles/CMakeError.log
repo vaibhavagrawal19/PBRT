@@ -1,0 +1,433 @@
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_NOINLINE failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-Syoh1G
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_07a57/fast && /usr/bin/make  -f CMakeFiles/cmTC_07a57.dir/build.make CMakeFiles/cmTC_07a57.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-Syoh1G'
+Building CXX object CMakeFiles/cmTC_07a57.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_DECLSPEC_NOINLINE  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_07a57.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-Syoh1G/src.cxx
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-Syoh1G/src.cxx:1:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+    1 | __declspec(noinline) void foo() { }
+      |           ^
+make[1]: *** [CMakeFiles/cmTC_07a57.dir/build.make:78: CMakeFiles/cmTC_07a57.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-Syoh1G'
+make: *** [Makefile:127: cmTC_07a57/fast] Error 2
+
+
+Source file was:
+__declspec(noinline) void foo() { }
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE__ALIGNED_MALLOC failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-zQhdpX
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f98b5/fast && /usr/bin/make  -f CMakeFiles/cmTC_f98b5.dir/build.make CMakeFiles/cmTC_f98b5.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-zQhdpX'
+Building CXX object CMakeFiles/cmTC_f98b5.dir/src.cxx.o
+/usr/bin/c++ -DHAVE__ALIGNED_MALLOC  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_f98b5.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-zQhdpX/src.cxx
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-zQhdpX/src.cxx: In function ‘int main()’:
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-zQhdpX/src.cxx:3:27: error: ‘_aligned_malloc’ was not declared in this scope
+    3 | int main() { void * ptr = _aligned_malloc(1024, 32); }
+      |                           ^~~~~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_f98b5.dir/build.make:78: CMakeFiles/cmTC_f98b5.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-zQhdpX'
+make: *** [Makefile:127: cmTC_f98b5/fast] Error 2
+
+
+Source file was:
+
+#include <malloc.h>
+int main() { void * ptr = _aligned_malloc(1024, 32); }
+
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_THREAD failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-WT1Hf3
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cf2a8/fast && /usr/bin/make  -f CMakeFiles/cmTC_cf2a8.dir/build.make CMakeFiles/cmTC_cf2a8.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-WT1Hf3'
+Building CXX object CMakeFiles/cmTC_cf2a8.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_DECLSPEC_THREAD  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_cf2a8.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-WT1Hf3/src.cxx
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-WT1Hf3/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+    2 | __declspec(thread) int x; int main() { }
+      |           ^
+make[1]: *** [CMakeFiles/cmTC_cf2a8.dir/build.make:78: CMakeFiles/cmTC_cf2a8.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-WT1Hf3'
+make: *** [Makefile:127: cmTC_cf2a8/fast] Error 2
+
+
+Source file was:
+
+__declspec(thread) int x; int main() { }
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eae43/fast && /usr/bin/make  -f CMakeFiles/cmTC_eae43.dir/build.make CMakeFiles/cmTC_eae43.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7'
+Building C object CMakeFiles/cmTC_eae43.dir/HAVE___UINT16.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eae43.dir/HAVE___UINT16.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c:27:31: error: expected ‘)’ before ‘__int16’
+   27 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c:27:31: error: expected ‘)’ before ‘__int16’
+   27 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c:30:12: note: in expansion of macro ‘SIZE’
+   30 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c:27:31: error: expected ‘)’ before ‘__int16’
+   27 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c:31:12: note: in expansion of macro ‘SIZE’
+   31 |   ('0' + ((SIZE / 100)%10)),
+      |            ^~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c:27:31: error: expected ‘)’ before ‘__int16’
+   27 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c:32:12: note: in expansion of macro ‘SIZE’
+   32 |   ('0' + ((SIZE / 10)%10)),
+      |            ^~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c:27:31: error: expected ‘)’ before ‘__int16’
+   27 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7/HAVE___UINT16.c:33:12: note: in expansion of macro ‘SIZE’
+   33 |   ('0' +  (SIZE    % 10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_eae43.dir/build.make:78: CMakeFiles/cmTC_eae43.dir/HAVE___UINT16.c.o] Error 1
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-OQEMD7'
+make: *** [Makefile:127: cmTC_eae43/fast] Error 2
+
+
+HAVE___UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function get_static_proc_name exists in the unwind failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-GEuYb5
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a272e/fast && /usr/bin/make  -f CMakeFiles/cmTC_a272e.dir/build.make CMakeFiles/cmTC_a272e.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-GEuYb5'
+Building C object CMakeFiles/cmTC_a272e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=get_static_proc_name -o CMakeFiles/cmTC_a272e.dir/CheckFunctionExists.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-GEuYb5/CheckFunctionExists.c
+Linking C executable cmTC_a272e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a272e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=get_static_proc_name -rdynamic CMakeFiles/cmTC_a272e.dir/CheckFunctionExists.c.o -o cmTC_a272e  -lunwind 
+/usr/bin/ld: CMakeFiles/cmTC_a272e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `get_static_proc_name'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_a272e.dir/build.make:99: cmTC_a272e] Error 1
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-GEuYb5'
+make: *** [Makefile:127: cmTC_a272e/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-6NNZ6D
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_caed3/fast && /usr/bin/make  -f CMakeFiles/cmTC_caed3.dir/build.make CMakeFiles/cmTC_caed3.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-6NNZ6D'
+Building C object CMakeFiles/cmTC_caed3.dir/src.c.o
+/usr/bin/cc -DHAVE___DECLSPEC   -o CMakeFiles/cmTC_caed3.dir/src.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-6NNZ6D/src.c
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-6NNZ6D/src.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | __declspec(selectany) int a;
+      | ^~~~~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-6NNZ6D/src.c: In function ‘__declspec’:
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-6NNZ6D/src.c:3:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+    3 | int main(void) { return 0; }
+      |                ^
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-6NNZ6D/src.c:2:1: warning: type of ‘selectany’ defaults to ‘int’ [-Wimplicit-int]
+    2 | __declspec(selectany) int a;
+      | ^~~~~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-6NNZ6D/src.c:2:27: error: declaration for parameter ‘a’ but no such parameter
+    2 | __declspec(selectany) int a;
+      |                           ^
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-6NNZ6D/src.c:5: error: expected ‘{’ at end of input
+make[1]: *** [CMakeFiles/cmTC_caed3.dir/build.make:78: CMakeFiles/cmTC_caed3.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-6NNZ6D'
+make: *** [Makefile:127: cmTC_caed3/fast] Error 2
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-u09Mbu
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b3906/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3906.dir/build.make CMakeFiles/cmTC_b3906.dir/build
+make[1]: Entering directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-u09Mbu'
+Building CXX object CMakeFiles/cmTC_b3906.dir/src.cxx.o
+/usr/bin/c++ -DSTL_NO_NAMESPACE  -std=gnu++11 -Wno-conversion-null  -o CMakeFiles/cmTC_b3906.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-u09Mbu/src.cxx
+/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-u09Mbu/src.cxx:3:1: error: ‘vector’ does not name a type
+    3 | vector<int> t; int main() { }
+      | ^~~~~~
+make[1]: *** [CMakeFiles/cmTC_b3906.dir/build.make:78: CMakeFiles/cmTC_b3906.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/vaibhav/CSE/Ray_Tracing/pbrt_rec/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-u09Mbu'
+make: *** [Makefile:127: cmTC_b3906/fast] Error 2
+
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_NOINLINE failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-dojXed
+
+Run Build Command(s):/usr/bin/ninja cmTC_15659 && [1/2] Building CXX object CMakeFiles/cmTC_15659.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_15659.dir/src.cxx.o 
+/usr/bin/g++ -DHAVE_DECLSPEC_NOINLINE  -std=gnu++11 -Wno-conversion-null -o CMakeFiles/cmTC_15659.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-dojXed/src.cxx
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-dojXed/src.cxx:1:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+    1 | __declspec(noinline) void foo() { }
+      |           ^
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+__declspec(noinline) void foo() { }
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE__ALIGNED_MALLOC failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-lRdydr
+
+Run Build Command(s):/usr/bin/ninja cmTC_b33ec && [1/2] Building CXX object CMakeFiles/cmTC_b33ec.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_b33ec.dir/src.cxx.o 
+/usr/bin/g++ -DHAVE__ALIGNED_MALLOC  -std=gnu++11 -Wno-conversion-null -o CMakeFiles/cmTC_b33ec.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-lRdydr/src.cxx
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-lRdydr/src.cxx: In function ‘int main()’:
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-lRdydr/src.cxx:3:27: error: ‘_aligned_malloc’ was not declared in this scope
+    3 | int main() { void * ptr = _aligned_malloc(1024, 32); }
+      |                           ^~~~~~~~~~~~~~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <malloc.h>
+int main() { void * ptr = _aligned_malloc(1024, 32); }
+
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_THREAD failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-s0zf77
+
+Run Build Command(s):/usr/bin/ninja cmTC_8d25e && [1/2] Building CXX object CMakeFiles/cmTC_8d25e.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_8d25e.dir/src.cxx.o 
+/usr/bin/g++ -DHAVE_DECLSPEC_THREAD  -std=gnu++11 -Wno-conversion-null -o CMakeFiles/cmTC_8d25e.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-s0zf77/src.cxx
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-s0zf77/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+    2 | __declspec(thread) int x; int main() { }
+      |           ^
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+__declspec(thread) int x; int main() { }
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM
+
+Run Build Command(s):/usr/bin/ninja cmTC_54340 && [1/2] Building C object CMakeFiles/cmTC_54340.dir/HAVE___UINT16.c.o
+FAILED: CMakeFiles/cmTC_54340.dir/HAVE___UINT16.c.o 
+/usr/bin/gcc    -o CMakeFiles/cmTC_54340.dir/HAVE___UINT16.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c:27:31: error: expected ‘)’ before ‘__int16’
+   27 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c:27:31: error: expected ‘)’ before ‘__int16’
+   27 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c:30:12: note: in expansion of macro ‘SIZE’
+   30 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c:27:31: error: expected ‘)’ before ‘__int16’
+   27 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c:31:12: note: in expansion of macro ‘SIZE’
+   31 |   ('0' + ((SIZE / 100)%10)),
+      |            ^~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c:27:31: error: expected ‘)’ before ‘__int16’
+   27 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c:32:12: note: in expansion of macro ‘SIZE’
+   32 |   ('0' + ((SIZE / 10)%10)),
+      |            ^~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c:27:31: error: expected ‘)’ before ‘__int16’
+   27 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~         ^~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-PvXQNM/HAVE___UINT16.c:33:12: note: in expansion of macro ‘SIZE’
+   33 |   ('0' +  (SIZE    % 10)),
+      |            ^~~~
+ninja: build stopped: subcommand failed.
+
+
+HAVE___UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function get_static_proc_name exists in the unwind failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-c6KtGT
+
+Run Build Command(s):/usr/bin/ninja cmTC_f9b68 && [1/2] Building C object CMakeFiles/cmTC_f9b68.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f9b68
+FAILED: cmTC_f9b68 
+: && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=get_static_proc_name -rdynamic CMakeFiles/cmTC_f9b68.dir/CheckFunctionExists.c.o -o cmTC_f9b68  -lunwind && :
+/usr/bin/ld: CMakeFiles/cmTC_f9b68.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `get_static_proc_name'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-50c67W
+
+Run Build Command(s):/usr/bin/ninja cmTC_b98d7 && [1/2] Building C object CMakeFiles/cmTC_b98d7.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b98d7.dir/src.c.o 
+/usr/bin/gcc -DHAVE___DECLSPEC   -o CMakeFiles/cmTC_b98d7.dir/src.c.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-50c67W/src.c
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-50c67W/src.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | __declspec(selectany) int a;
+      | ^~~~~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-50c67W/src.c: In function ‘__declspec’:
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-50c67W/src.c:3:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+    3 | int main(void) { return 0; }
+      |                ^
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-50c67W/src.c:2:1: warning: type of ‘selectany’ defaults to ‘int’ [-Wimplicit-int]
+    2 | __declspec(selectany) int a;
+      | ^~~~~~~~~~
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-50c67W/src.c:2:27: error: declaration for parameter ‘a’ but no such parameter
+    2 | __declspec(selectany) int a;
+      |                           ^
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-50c67W/src.c:5: error: expected ‘{’ at end of input
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-XXBOB1
+
+Run Build Command(s):/usr/bin/ninja cmTC_34fe0 && [1/2] Building CXX object CMakeFiles/cmTC_34fe0.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_34fe0.dir/src.cxx.o 
+/usr/bin/g++ -DSTL_NO_NAMESPACE  -std=gnu++11 -Wno-conversion-null -o CMakeFiles/cmTC_34fe0.dir/src.cxx.o -c /home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-XXBOB1/src.cxx
+/home/vaibhav/CSE/Ray_Tracing/pbrt-v3/build/CMakeFiles/CMakeScratch/TryCompile-XXBOB1/src.cxx:3:1: error: ‘vector’ does not name a type
+    3 | vector<int> t; int main() { }
+      | ^~~~~~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+
